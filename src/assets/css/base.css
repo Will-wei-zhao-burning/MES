@@ -1,0 +1,102 @@
+html,
+body{
+    height: 100%;
+}
+.new_row .el-input__inner{
+    height: 44px!important;
+}
+#plan .middle .el-input__inner{
+    border: 1px solid #fdfdfd !important;
+}
+#plan .middle .el-input__inner:focus{
+    border-color: #fdfdfd !important;
+}
+#plan .el-dialog__body{
+    text-align: left;
+}
+#middle .el-input,
+#middle .el-input__inner,
+.table-footer .el-input,
+.table-footer .el-input__inner{
+    height: 32px !important;
+    border:0px!important;
+    text-align: center!important;
+}
+#middle .el-row .el-col{
+    height: 40px;
+}
+#summary .el-table td, #summary .el-table th.is-leaf {
+    border-bottom: 1px solid #313131!important;
+    
+}
+#summary .el-table--border td,#summary .el-table--border th,#summary .el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed {
+    border-right: 1px solid  #313131!important;
+    border-bottom: 1px solid #313131!important;
+}
+
+#summary .el-table{
+    border: 1px solid  #313131!important;
+}
+.el-main{
+    padding: 0px!important;
+}
+#plan .el-upload--picture-card,
+#plan .el-upload-list--picture-card .el-upload-list__item{
+    width:60px!important;
+    height: 60px!important;
+    line-height:70px!important;
+    margin-bottom: 0px!important;
+}
+#plan .cell .el-upload-list--picture-card{
+    height: 0px!important;
+    
+}
+.el-date-editor {
+   width:70%!important;
+}
+table th.star div::before {
+    content: '*';
+    color: red;
+}
+.el-input-group__append{
+    padding: 0 14px!important;
+    text-align: center;
+}
+.el-input-group__append .el-button{
+    padding: 12px 6px!important;
+}
+.serach_box>div>.el-input/* ,
+.serach_box .el-select */
+{
+    width:65%!important;
+}
+.serach_box {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .status-area {
+    text-align: left;
+  }
+  .btn-area button {
+    width: 120px;
+  }
+  .summary .el-row {
+    text-align: left;
+    line-height: 40px;
+    margin: 20px 0;
+  }
+  .el-card{
+      min-height: 100px;
+  }
+.el-table th.gutter{
+    display: table-cell!important;
+    }
+.el-textarea {
+    vertical-align: middle!important;
+}
+/* 调整合并单元格的样式 */
+.el-table .cell,
+#newAverage .el-table td{
+  padding: 0!important;
+}
